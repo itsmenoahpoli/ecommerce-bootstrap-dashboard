@@ -1,0 +1,131 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background: #ffffff !important;
+}
+
+// BS Overrides
+.container-fluid {
+  padding: 0 !important;
+}
+
+.btn {
+  font-size: 12px;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+.btn.btn-link {
+  padding: 0 !important;
+}
+
+.btn:focus,
+.btn:active {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.breadcrumb {
+  li {
+    font-size: 13px;
+
+    a {
+      text-decoration: none;
+      text-transform: capitalize;
+    }
+  }
+}
+
+.badge {
+  border-radius: 15px;
+}
+
+.card {
+  background-color: #fff;
+  border: solid 1px rgba(222, 226, 230, 0.45) !important;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 1.6rem 3rem rgba(0, 0, 0, 0.035) !important;
+
+  .card-header {
+    background: #fff;
+    padding: 15px 15px !important;
+    border-bottom: solid 1px #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.form-group {
+  margin-top: 20px;
+
+  input,
+  textarea,
+  select {
+    font-size: 13px;
+    padding: 15px;
+  }
+
+  input:active,
+  textarea:active,
+  select:active,
+  input:focus,
+  textarea:focus,
+  select:focus {
+    box-shadow: none;
+    outline: none;
+    border-color: #ddd;
+  }
+
+  .form-floating {
+    label {
+      font-size: 14px;
+    }
+  }
+}
+
+.table {
+  thead {
+    background: #fcfcfc;
+    border-bottom-color: #fcfcfc;
+
+    tr {
+      td {
+        font-size: 12px;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  tbody {
+    border: 0 !important;
+    tr {
+      td {
+        font-size: 13px;
+        border: 0 !important;
+
+        p.td-text {
+          display: block;
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    tr:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+// Dashboard cards
+.dashboard-table-card {
+  height: 500px;
+}
+
+// Table filters container
+.table-filters-container {
+}

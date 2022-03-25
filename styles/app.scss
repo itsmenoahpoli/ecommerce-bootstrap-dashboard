@@ -1,0 +1,14 @@
+$theme-colors: (
+  "primary": #651fff,
+  "success": #4caf50,
+  "danger": #f35421,
+  "warning": #f7cc45,
+  "secondary": #f5f5f5,
+);
+
+@import "~bootstrap/scss/bootstrap";
+
+@import "styles/fonts";
+@import "styles/theme";
+@import "styles/global";
+@import "styles/layout";
